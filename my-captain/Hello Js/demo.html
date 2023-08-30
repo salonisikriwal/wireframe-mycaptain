@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <title>Memory Website</title>
+  </head>
+  <body>
+    <header>
+      <h1>FondReflections</h1>
+      <nav>
+        <ul>
+        <li><a href="/" class="nav-link" data-target="Home">Home</a></li>
+        <li><a href="/" class="nav-link" data-target="About">About</a></li>
+        <li><a href="/" class="nav-link" data-target="Contact">Our Mission</a></li>
+        <li><a href="/" class="nav-link" data-target="Contact">Contact</a></li>
+        </ul>
+      </nav>
+      <script>
+        const navLinks = document.querySelectorAll(".nav-link");
+        const contentSections = document.querySelectorAll(".content");
+
+        navLinks.forEach((link) => {
+          link.addEventListener("click", () => {
+            const target = link.getAttribute("data-target");
+
+            contentSections.forEach((section) => {
+              if (section.id === target) {
+                section.style.display = "block";
+              } else {
+                section.style.display = "none";
+              }
+            });
+          });
+        });
+      </script>
+    </header>
+    <main>
+      <section>
+        <h2>cherished moment - A Journey through</h2>
+        <img src="img.png"/>
+        <video autoplay="" loop="" controls="" width="50%">
+          <source src="video.mp4" type="viedo/viedo.mp4">
+          <input type="file" id="fileInput" accept="image/*, video/*" />
+        <input type="text" id="memoryTitle" placeholder="Enter Memory Title" />
+        </video>
+        <input type="file" id="fileInput" accept="image/*, video/*" />
+        <input type="text" id="memoryTitle" placeholder="Enter Memory Title" class="file"/>
+        <button id="uploadButton">Upload</button>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <h2>The Joy Chronicles- Reimagined</h2>
+        <img src="img.png"/>
+        <video autoplay="" loop="" controls="" width="50%">
+          <source src="video.mp4" type="viedo/viedo.mp4">
+          <input type="file" id="fileInput" accept="image/*, video/*" />
+        </video>
+        <input type="file" id="fileInput" accept="image/*, video/*" />
+        <input type="text" id="memoryTitle" placeholder="Enter Memory Title"  class="file"/>
+        <button id="uploadButton">Upload</button>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <h2>Canvas of Smiles - Recollection</h2>
+        <img src="img.png"/>
+        <video autoplay="" loop="" controls="" width="50%">
+          <source src="video.mp4" type="viedo/viedo.mp4">
+          <input type="file" id="fileInput" accept="image/*, video/*" />
+        </video>
+        <input type="file" id="fileInput" accept="image/*, video/*" />
+        <input type="text" id="memoryTitle" placeholder="Enter Memory Title" class="file"/>
+        <button id="uploadButton">Upload</button>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <h2>Pages of Laughter</h2>
+        <img src="img.png"/>
+        <video autoplay="" loop="" controls="" width="50%">
+          <source src="video.mp4" type="viedo/viedo.mp4">
+        </video>
+        <input type="file" id="fileInput" accept="image/*, video/*" />
+        <input type="text" id="memoryTitle" placeholder="Enter Memory Title" class="file"/>
+        <button id="uploadButton">Upload</button>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <h2>Celestial Moments</h2>
+        <img src="img.png"/>
+        <video autoplay="" loop="" controls="" width="50%">
+          <source src="video.mp4" type="viedo/viedo.mp4">
+        </video>
+        <input type="file" id="fileInput" accept="image/*, video/*" />
+        <input type="text" id="memoryTitle" placeholder="Enter Memory Title" class="file"/>
+        <button id="uploadButton">Upload</button>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <h2>Frames of Fondness</h2>
+        <img src="img.png"/>
+        <video autoplay="" loop="" controls="" width="50%">
+          <source src="video.mp4" type="viedo/viedo.mp4">
+        </video>
+        <input type="file" id="fileInput" accept="image/*, video/*" />
+        <input type="text" id="memoryTitle" placeholder="Enter Memory Title" class="file"/>
+        <button id="uploadButton">Upload</button>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <h2>Harmonizers</h2>
+        <img src="img.png"/>
+        <video autoplay="" loop="" controls="" width="50%">
+          <source src="video.mp4" type="viedo/viedo.mp4">
+        </video>
+        <input type="file" id="fileInput" accept="image/*, video/*" />
+        <input type="text" id="memoryTitle" placeholder="Enter Memory Title" class="file"/>
+        <button id="uploadButton">Upload</button>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <h2>Glimpses of Joys</h2>
+        <img src="img.png"/>
+        <video autoplay="" loop="" controls="" width="50%">
+          <source src="video.mp4" type="viedo/viedo.mp4">
+        </video>
+        <input type="file" id="fileInput" accept="image/*, video/*" />
+        <input type="text" id="memoryTitle" placeholder="Enter Memory Title" class="file"/>
+        <button id="uploadButton">Upload</button>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <h2>Whispers of Happiness</h2>
+        <img src="img.png"/>
+        <video autoplay="" loop="" controls="" width="50%">
+          <source src="video.mp4" type="viedo/viedo.mp4">
+        </video>
+        <input type="file" id="fileInput" accept="image/*, video/*" />
+        <input type="text" id="memoryTitle" placeholder="Enter Memory Title" class="file"/>
+        <button id="uploadButton">Upload</button>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <h2>Radiance revisited</h2>
+        <img src="img.png"/>
+        <video autoplay="" loop="" controls="" width="50%">
+          <source src="video.mp4" type="viedo/viedo.mp4">
+        </video>
+        <input type="file" id="fileInput" accept="image/*, video/*" />
+        <input type="text" id="memoryTitle" placeholder="Enter Memory Title" class="file"/>
+        <button id="uploadButton">Upload</button>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <h2>Unforgettable Bliss</h2>
+        <img src="img.png"/>
+        <video autoplay="" loop="" controls="" width="50%">
+          <source src="video.mp4" type="viedo/viedo.mp4">
+        </video>
+        <input type="file" id="fileInput" accept="image/*, video/*" />
+        <input type="text" id="memoryTitle" placeholder="Enter Memory Title" class="file"/>
+        <button id="uploadButton">Upload</button>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <h2>Timeless Treasures</h2>
+        <img src="img.png"/>
+        <video autoplay="" loop="" controls="" width="50%">
+          <source src="video.mp4" type="viedo/viedo.mp4">
+        </video>
+        <input type="file" id="fileInput" accept="image/*, video/*" />
+        <input type="text" id="memoryTitle" placeholder="Enter Memory Title" class="file"/>
+        <button id="uploadButton">Upload</button>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <h2>Melodies</h2>
+        <img src="img.png"/>
+        <video autoplay="" loop="" controls="" width="50%">
+          <source src="video.mp4" type="viedo/viedo.mp4">
+        </video>
+        <input type="file" id="fileInput" accept="image/*, video/*" />
+        <input type="text" id="memoryTitle" placeholder="Enter Memory Title" class="file"/>
+        <button id="uploadButton">Upload</button>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+      </section>
+      <section id="gallery">
+        <!-- Display uploaded media here -->
+      </section>
+      <div id="home" class="content">
+        <h2>FondReflections</h2>
+        <img src="fr.jpg" alt="" class="fr">
+        <p>
+          Welcome to our website <br />
+          Hope You all will like this app which Refreshes some of our precious
+          Unfogettable reflections or memories
+        </p>
+      </div>
+      <hr />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <div id="about" class="content">
+        <h2>About</h2>
+        <img src="fr.jpg" alt="" class="fr">
+        <p>
+          Welcome to FondReflection, a place to explore and cherish memories
+          that have shaped our lives. We believe that memories are more than
+          mere recollections; they are the threads that weave the fabric of our
+          personal stories. Our website is dedicated to preserving and
+          celebrating these precious moments that have left a mark on us.
+        </p>
+      </div>
+      <hr />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <div id="about" class="content">
+        <h2>Our Mission</h2>
+        <img src="fr.jpg" alt="" class="fr">
+        <p>
+          At FondReflection, our mission is to create a platform where
+          individuals can capture and share their memories in a meaningful way.
+          We aim to foster a sense of connection and nostalgia, allowing users
+          to relive the past and find joy in the present. Whether it's a
+          heartwarming story, a vivid photograph, or a treasured artifact, we
+          encourage you to share the pieces of your history that have left a
+          lasting impression.
+        </p>
+      </div>
+      <hr />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <div id="contact" class="content">
+        <h2>Contact</h2>
+        <img src="fr.jpg" alt="" class="fr">
+        <p>
+          Feel free to get in touch with us. Whether you're here to share,
+          explore, or simply reflect, we invite you to be a part of the
+          FondReflection community. Together, we can celebrate the beauty of
+          human experiences and create a legacy of memories for future
+          generations. Start sharing your stories today and let your memories
+          shine on FondReflection.
+        </p>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </main>
+  </body>
+  <footer>
+    <div class="footer">
+      <div class="footer-first">
+        <h3>FondReflections</h3>
+      </div>
+      <div class="footer-second">
+        <div class="text-center">www.fondReflection.com</div>
+      <div class="footer-third"></div>
+      <div class="footer-fourth"></div>
+    </div>
+  </footer>  
+</html>
